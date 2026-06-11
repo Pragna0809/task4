@@ -1,34 +1,27 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color:yellow;
-}
-
 .container {
-  width: 500px;
+  width: 400px;
   margin: 50px auto;
-  background: skyblue;
-  padding: 20px;
-  
-}
-
-h1 {
   text-align: center;
+  font-family: Arial, sans-serif;
+  color:brown
 }
 
 .input-section {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  
 }
 
 input[type="text"] {
-  flex: 1;
   padding: 8px;
+  width: 220px;
+  background-color: aquamarine;
 }
 
 button {
   padding: 8px 12px;
+  margin-left: 5px;
   cursor: pointer;
+  background-color: aqua;
 }
 
 ul {
@@ -37,14 +30,10 @@ ul {
 }
 
 li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
-  border-bottom: 1px red;
+  margin: 10px 0;
 }
 
 .completed {
   text-decoration: line-through;
-  color:brown;
+  color: gray;
 }
